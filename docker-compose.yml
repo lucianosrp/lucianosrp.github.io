@@ -1,0 +1,26 @@
+version: "3"
+
+networks:
+  jekyll:
+    external: false
+
+services:
+  garden:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: jekyll
+    restart: always
+    networks:
+      - jekyll
+    volumes:
+      - ./_data:/usr/src/app/_data
+      - ./_plugins:/usr/src/app/_plugins
+      - ./_posts:/usr/src/app/_posts
+      - ./_tabs:/usr/src/app/_tabs
+      - ./assets:/usr/src/app/assets
+      - ./index.html:/usr/src/app/index.html
+      - ./_config.yml:/usr/src/app/_config.yml
+    ports:
+      - "4000:4000"
+
