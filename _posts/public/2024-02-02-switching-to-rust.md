@@ -16,7 +16,7 @@ Learning Rust for the past months has been one best learning experiences I have 
 Here are the top features that I particularly enjoy as a Python developer! :)
 
 ## Why Rust?
-You may want to know why I wanted to learn Rust out of the many other languages out there. First, I wanted to pick a lower-level language as I think it would nicely complete with my current knowledge of Python. By learning a lower-level language I can familiarize myself more with hardware resources and architectures as well as learning how to optimize for performance. As a Python developer, I kept looking more and more at rust-dependent code such as [Polars](https://pola.rs/), [Pydantic](https://docs.pydantic.dev/latest/) and more. 
+You may want to know why I wanted to learn Rust out of the many other languages out there. First, I wanted to pick a lower-level language as I think it would nicely complete with my current knowledge of Python. By learning a lower-level language I can familiarize myself more with hardware resources and architectures as well as learning how to optimize for performance. As a Python developer, I kept looking more and more at rust-dependent code such as [Polars](https://pola.rs/) and [Pydantic](https://docs.pydantic.dev/latest/), there is definitely a trend for applications to have a core backend written in Rust and using Python as a code interface. This is one of the main reasons I am choosing to learn Rust among many other great languages.
 
 ## Static typing 
 Although I really like the dynamic nature of Python, I have been starting to appreciate the comfort of having typehints in the code I write. Typehints improve code readability and blends with most code editors and **lsps**. 
@@ -117,9 +117,35 @@ fn main() {
 I did my best to replicate the example in Rust, I am sure a more seasoned Rust dev can do a better job.
 With this code, `foo` uses the `Option` and it's variant `Some` which literally means that there is a value, and `None` -  no value.
 
-This makes so that any function that uses the output of `foo` would need to handle each variant of the Enum `Option`. The same would be true for the `Result` enum which has `Ok` and `Err` as a variant. 
+This makes so that any function that uses the output of `foo` would need to handle each variant of the Enum `Option`. 
 
-This add the great advantage to explicitly force the user to handle cases in which a function or method may return no value or raise an error. This functionality is what I always miss when I go back to Python.
+The same would be true for the `Result` enum which has `Ok` and `Err` as a variant. With Rust you could simply use the `unwrap_or` method to get the `Ok` value or use a match pattern like this:
+
+```rust
+use rand::{thread_rng, Rng};
+
+fn random_error() -> Result<String, ()> {
+    let mut rng = thread_rng();
+
+    if rng.gen_range(0..10) == 1 {
+        Ok(String::from("Result A"))
+    } else {
+        Err(())
+    }
+}
+
+fn main() {
+    let val = random_error();
+    match val {
+        Ok(result) => println!("We safely got the result, {result}"),
+        Err(_) => println!("We received an error!"),
+    }
+}
+
+```
+
+
+This add the great advantage to explicitly force the user to handle cases in which a function or method may return no value or raise an error. This functionality is what I always miss when I go back to Python. When I use a function from an external library in Python, I always need to make sure of what exceptions the function may or may not raise, having this represented in a convenient `Result` enum really helps adopting the function to your script. 
 
 
 ## Final thoughts - Is it actually that good?
