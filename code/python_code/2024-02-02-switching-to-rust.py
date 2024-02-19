@@ -4,6 +4,8 @@ import random
 def foo() -> str | None:
     if random.randint(0, 10) == 1:
         return "Hello"
+    else:
+        return None
 
 
 def bar(s: str | None) -> str:
