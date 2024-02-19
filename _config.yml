@@ -19,11 +19,12 @@ title: Code blog
 tagline: Eveveryday learning
 
 description: >- # used by seo meta and the atom feed
-  "A blog about coding and life, showing learnings and mistakes as well as achievements"
+  "A blog about coding and life, showing learnings, mistakes and achievements"
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://lucianosrp.github.io"
+url:
+# url: "https://lucianosrp.github.io"
 
 github:
   username: lucianosrp
