@@ -46,15 +46,23 @@ Consider the following example in Python:
 ```python
 import random
 
-def foo() -> str | None:
-    if random.randint(0,10) == 1:
-        return "Hello"
 
-def bar(s:str) -> str:
-    return s.upper()
+def foo() -> str | None:
+    if random.randint(0, 10) == 1:
+        return "Hello"
+    else:
+        return None
+
+
+def bar(s: str | None) -> str:
+    if isinstance(s, str):
+        return s.upper()
+    return ""
+
 
 random_val = foo()
-assert bar(random_val) in ("HELLO","") 
+assert bar(random_val) in ("HELLO", "")
+
 ```
 
 Now,this is a very basic examples! There are chances for this program to run successfully but let's see why it may not. 
