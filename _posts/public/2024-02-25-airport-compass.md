@@ -30,7 +30,7 @@ Shortly after seeing this chart, I immediately though of replicating this view f
 For this project I used two major open-source datasets, so that anyone who wants, can replicate it freely.
 I made the source-code available on my GitHub [here](https://github.com/lucianosrp/airport-compass).
 
-Instead of using streets of cities, I needed to use routes of airpots.
+Instead of using streets of cities, I needed to use routes of airports.
 
  - The airlines routes data comes from [@jpatokal](https://github.com/jpatokal/openflights)'s OpenFlights repository
 
@@ -77,8 +77,8 @@ By looking at other airports, such as Munich, we can notice how their central hu
 
 As I said earlier in this post, I am using two freely available datasets and published the source code to replicate these charts.
 
-Everything is made entierly using Python:
- - To merge and transorm the data I used [pandas](https://pandas.pydata.org/)
+Everything is made entirely using Python:
+ - To merge and transform the data I used [pandas](https://pandas.pydata.org/)
  - [matplotlib](https://matplotlib.org/) is used for the visualization
 
 ### Data
@@ -123,7 +123,7 @@ airports = pd.read_csv(
     usecols=["ident", "iata_code", "latitude_deg", "longitude_deg"],
 )
 ```
-OurAirpot's data comes in handy as it has exactly what we are looking for! Since the previous dataset only has IATA airport pairs we can join both origin and destinantion using a loop.
+OurAirport's data comes in handy as it has exactly what we are looking for! Since the previous dataset only has IATA airport pairs we can join both origin and destinantion using a loop.
 ```python
 # Merging routes with airports info:
 df = routes # <-- making another reference for convinency
@@ -161,7 +161,7 @@ The data is now ready for the visualization!
 
 ### Visualization
 
-We can dinamically create the layout of our "poster" by dividign the total number of airports by the number of columns we want to have. Considering that the columns will dictate how "wide" will the final image be.
+We can dynamically create the layout of our "poster" by dividign the total number of airports by the number of columns we want to have. Considering that the columns will dictate how "wide" will the final image be.
 
 ```python
 ncols = 5 
