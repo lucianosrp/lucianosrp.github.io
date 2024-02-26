@@ -13,3 +13,8 @@ I know it is not going to be perfect for now but I take this also as a good exer
 Writing is also a good reality check; if I am able to summarize and write down what I learn, then it is a good indication that I can actually comprehend the concepts I studied. 
 
 On this website, you can expect a variety of content ranging from coding tutorials and project updates to personal reflections and my comments on the tech world.
+
+## Contacts
+Email: scarpulla53@gmail.com
+GitHub: lucianosrp
+LinkedIn: https://www.linkedin.com/in/luciano-scarpulla
