@@ -18,10 +18,10 @@ image:
 
 This figure represents the distribution of the orientation of every street of major cities.
 
-I like how it gives a quick representation of each cities'
-layout and how evident are the various levels of entropy. You can easily recognise the cities which have a complex system of streets those who have a simpler grid layout. 
+I like how it gives a quick representation of each city's
+layout and how evident are the various levels of entropy. You can easily recognise the cities which have a complex system of streets and those who have a simpler grid layout. 
 
-Shortly after seeing this chart, I immediately though of replicating this view for airports' traffic worldwide.
+Shortly after seeing this chart, I immediately thought of replicating this view for airports' traffic worldwide.
 
 
 
@@ -221,7 +221,7 @@ You can find the full code on GitHub [(link)](https://github.com/lucianosrp/airp
 There you can see the python file along with the styling sheet I made for matplotlib. Feel free to fork the repository and make your own changes! 
 
 ## What's next?
-I first developed this {{ site.time | date: '%Y' | minus: 2021 }} years ago and I re-adapted my old code for this post. There are some changes and improvments that can be made.
+I first developed this {{ site.time | date: '%Y' | minus: 2021 }} years ago and I re-adapted my old code for this post. There are some changes and improvements that can be made.
 For example:
 - The data is grouped by each unique bearing, which means that if a route is at a 269 degree angle, it will create a separate bar to those routes with a 270 degree angle. This can be fixed my simply rounding the angles, or, even better, distributing the angles into different buckets (e.g 130-140 degrees, 140-150, etc.)
 
