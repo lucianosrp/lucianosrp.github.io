@@ -1,4 +1,5 @@
 ---
+pin: true
 title: The airport compass
 author: luciano
 date: 2024-02-25 12:10:00 +0200
