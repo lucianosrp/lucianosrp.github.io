@@ -12,7 +12,7 @@ image:
 
 ## Intro
 
-As [previously mentioned](posts/switching-to-rust/#why-rust) in this blog, Rust is becoming more and more used in Python libraries such as Pydantic and Polars.But recently we are also getting python tools written in Rust! Few months ago, I followed the development of [Rye](https://rye-up.com/) as an alternative Python project and package manager. Later on, [Ruff](https://docs.astral.sh/ruff/) made its debut as a linter and formatter substituting the popular [flake-8](https://flake8.pycqa.org/en/latest/) and [black](https://black.readthedocs.io/en/stable/).
+As [previously mentioned](/posts/switching-to-rust/#why-rust) in this blog, Rust is becoming more and more used in Python libraries such as Pydantic and Polars.But recently we are also getting python tools written in Rust! Few months ago, I followed the development of [Rye](https://rye-up.com/) as an alternative Python project and package manager. Later on, [Ruff](https://docs.astral.sh/ruff/) made its debut as a linter and formatter substituting the popular [flake-8](https://flake8.pycqa.org/en/latest/) and [black](https://black.readthedocs.io/en/stable/).
 
 Thanks to their powerful backend written in Rust, these tools all provide a susbtanstial upgrade in terms of performance and flexibility compared to the tools they are aiming to replace (up to 100x faster). I have swiftly been decommissioning some of the tools I am using (anaconda, poetry,black) in favour of these ones and here are my first comments and reaction!
 
