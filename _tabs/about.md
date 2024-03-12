@@ -16,5 +16,7 @@ On this website, you can expect a variety of content ranging from coding tutoria
 
 ## Contacts
 Email: scarpulla53@gmail.com
-GitHub: lucianosrp
+\
+GitHub: [@lucianosrp](https://github.com/lucianosrp)
+\
 LinkedIn: https://www.linkedin.com/in/luciano-scarpulla
