@@ -7,7 +7,7 @@ categories: [Coding, Blog, Aviation]
 tags: [Visualization, Aviation , Python]
 toc: true
 image:
-    path: assets/img/Where%20is%20it%20going%2015.png
+    path: assets/img/airport-compass/Where%20is%20it%20going%2015.png
     alt: Airports' traffic distribution by initial bearing
 ---
 
