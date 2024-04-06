@@ -43,7 +43,7 @@ Later in this post I go through what tools I used and how to replicate the image
 
 ## Outcomes
 
-![15 Airports view](assets/img/Where%20is%20it%20going%2015.png)
+![15 Airports view](assets/img/airport-compass/Where%20is%20it%20going%2015.png)
 _Compasses from 15 major airline airports_
 
 I first generated the top 15 airports by number of destinations. Overall, I am quite happy with how the image looks. From North to South, East to West, it is possible to quickly find out what type of traffic each airport is having *(in terms of departures)*. I have also generated a larger poster, containing the top 30 airports, which can be found at the end of this post. 
@@ -55,22 +55,22 @@ Each chart (or compass) displays the distribution of outbound flights and allign
 
 
 
-![JFK](/assets/img/JFK-dark.png){:.dark w="330" .normal} 
-![JFK](/assets/img/JFK-light.png){:.light w="330" .normal} 
-![LHR](/assets/img/LHR-dark.png){:.dark w="330"  .normal} 
-![LHR](/assets/img/LHR-light.png){:.light w="330"  .normal} 
+![JFK](/assets/img/airport-compass/JFK-dark.png){:.dark w="330" .normal} 
+![JFK](/assets/img/airport-compass/JFK-light.png){:.light w="330" .normal} 
+![LHR](/assets/img/airport-compass/LHR-dark.png){:.dark w="330"  .normal} 
+![LHR](/assets/img/airport-compass/LHR-light.png){:.light w="330"  .normal} 
 
 \
 Some airports like New York JFK and London Heathrow (LHR) represent an important hub for transatlantic flights. In these charts, we can see how LHR has a long bar towards West (towards the North America) and JFK has one towards East (Europe).
 \
 Other airports' compasses, instead, are majorly driven by the geographical constrains of their location. Tokyo's Narita Intl. Airport is a very good example to illustrate this case.
-![NRT](/assets/img/NRT-dark.png){:.dark w="500" .center} 
-![NRT](/assets/img/NRT-light.png){:.light w="500" .center} 
+![NRT](/assets/img/airport-compass/NRT-dark.png){:.dark w="500" .center} 
+![NRT](/assets/img/airport-compass/NRT-light.png){:.light w="500" .center} 
 \
 It has virtually no routes pointing eastwards! This is because Japan has the Pacific Ocean to its east side and most of the routes connecting Japan to North America are flying with an initial bearing pointing North! (Since this would be the shortest great circle path)
 
-![MUC](/assets/img/MUC-dark.png){:.dark w="500" .center} 
-![MUC](/assets/img/MUC-light.png){:.light w="500" .center} 
+![MUC](/assets/img/airport-compass/MUC-dark.png){:.dark w="500" .center} 
+![MUC](/assets/img//airport-compass/MUC-light.png){:.light w="500" .center} 
 \
 By looking at other airports, such as Munich, we can notice how their central hub function is also represented in the plot.
 
@@ -230,7 +230,7 @@ For example:
 
 
 ## Bigger poster
-![30 Airports view](assets/img/Where%20is%20it%20going%2030.png)
+![30 Airports view](assets/img/airport-compass/Where%20is%20it%20going%2030.png)
 
 
 ## Footnotes
