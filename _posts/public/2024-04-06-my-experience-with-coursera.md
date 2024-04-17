@@ -24,7 +24,7 @@ Recently, I was encouraged to take on a course for then getting a certifcate. So
 
 Pytorch is a library used for Machine Learning which is a is a hot topic that hasn't stopped trending. Coursera offered an intermidiate course my IBM on it so I decided to give it a try.
 
-![](../../assets/img/coursera/Screenshot%20from%202024-04-07%2018-11-26.png)
+![](/assets/img/coursera/Screenshot%20from%202024-04-07%2018-11-26.png)
 
 
 The issue I always have with these type of courses is that you don't necessarily have the same "starting level" with the course itself. You may need to go over topics you are familiar with before actually starting learning something new. Which I think is fine for the most part, since it is always good to revise and refresh some concepts.
@@ -33,7 +33,7 @@ The issue I always have with these type of courses is that you don't necessarily
 
 Compared to what you can usually find on Youtube and other websites, the course seems to be very "cheap" whith a synthetic voice over and poorly made slides. But the explanations and concepts are still very simple and easy to understand. I was just suprised that the average quality of the course is not in par whith what you would normally have on a free platform. 
 
-![](../../assets/img/coursera/Screenshot%20from%202024-04-07%2018-11-47.png)
+![](/assets/img/coursera/Screenshot%20from%202024-04-07%2018-11-47.png)
 
 
 ## Is it actually worth it ?
