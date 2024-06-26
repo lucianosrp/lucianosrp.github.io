@@ -23,22 +23,22 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url:
-# url: "https://lucianosrp.github.io"
+# url:
+url: "https://lucianosrp.github.io"
 
 github:
   username: lucianosrp
 
 twitter:
-  username: lucianostweet
+  username: luciano_srp
 
 social:
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Luciano Scarpulla
   email: scarpulla53@gmail.com
   links:
-    - https://twitter.com/lucianostweet
-    - https://github.com/lucianosrp # change to your github homepage
+    - https://x.com/luciano_srp
+    - https://github.com/lucianosrp
     - https://www.linkedin.com/in/luciano-scarpulla
 
 google_site_verification: # fill in to your verification string
